@@ -1,0 +1,126 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Nunito", sans-serif;
+	background-color: #22223b;
+}
+
+#mainNavbar .navbar-brand,
+#mainNavbar .nav-link {
+	font-family: "Montserrat", sans-serif;
+	color: #f2e9e4;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.9em;
+}
+
+#mainNavbar .navbar-brand:hover,
+#mainNavbar .nav-link:hover {
+	color: #c9ada7;
+}
+
+.navbar.scrolled {
+	background: #22223bea;
+	transition: background 500ms;
+}
+
+#profile h1 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	color: #c9ada7;
+}
+
+#profile a {
+	color: #f2e9e4;
+	text-decoration: none;
+}
+
+#profile .soc-med a:hover {
+	color: #c9ada7;
+}
+
+.btn-outline-secondary {
+	color: #f2e9e4;
+}
+
+h3 {
+	color: #f2e9e4;
+	text-transform: uppercase;
+}
+
+h6 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	color: #22223b;
+}
+
+section .card {
+	background-color: #c9ada7;
+}
+
+.card-body ul {
+	list-style: none;
+}
+
+.img-fluid {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.progress .progress-bar {
+	background-color: #22223b;
+}
+
+.skills-img {
+	width: 15px;
+	height: 15px;
+	margin-bottom: 3px;
+}
+
+.text-description {
+	color: #4a4e69;
+}
+
+.text-trim {
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+
+.card .btn {
+	background-color: #4a4e69;
+	color: #f2e9e4;
+}
+
+.card .btn:hover {
+	background-color: #22223b;
+}
+
+#contact label {
+	color: #9a8c98;
+}
+
+hr {
+	border-color: #9a8c98;
+}
+
+@media (max-width: 767px) {
+	.navbar {
+		background: #22223bea;
+		transition: background 500ms;
+	}
+}
+
+@media (max-width: 575px) {
+	#profile h1 {
+		font-size: 2.5em;
+	}
+	#profile p {
+		font-size: 1em;
+	}
+}
